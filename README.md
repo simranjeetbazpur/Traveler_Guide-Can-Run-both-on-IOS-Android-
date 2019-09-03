@@ -11,8 +11,14 @@ The main motivation behind developing this system was to serve the purpose of a 
     Traveler (primary user) </li>
   <li> Administrator (secondary user) </li>
   </ul>
- 
 
+## Design Pattern 
+
+The Design pattern I chose is the Builder design pattern. This pattern falls under the category of Creational patterns. This pattern is useful for complex object creation. It deals with how composite objects are created. 
+ 
+The builder pattern follows a construction process that allows different representation for the objects that are constructed. This design pattern is very useful for my project as during the FourSquare API call an object should be passed as a parameter such that the object can have different representation depending on the traveler’s preferences. 
+
+## About the Code (Followed MVC architecture) 
 The code is divided into :
 1. UI layer
 2. Business logic layer
